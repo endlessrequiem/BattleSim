@@ -9,11 +9,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 
 public class playerInput extends AppCompatActivity {
 
-    LinkedList<Character> list = new LinkedList<>();
+    HashMap<String, Double> list = new HashMap<>();
 
 
     @Override
@@ -33,8 +34,14 @@ public class playerInput extends AppCompatActivity {
                 double charHealth = Double.parseDouble(healthInput.getText().toString());
 
                 Character newChar = new Character(charName, charHealth);
-                list.add(newChar);
-                //TODO: Print out LinkedList elements
+                list.put(charName, charHealth);
+
+                charList.setText(list
+                        .toString()
+                        .replace("{", "")
+                        .replace("=", " HP: ")
+                        .replace("}","")
+                );
 
             }
         });
