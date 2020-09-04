@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BattleSim</string>
+    <string name="begin">Begin!</string>
+    <string name="name">Name</string>
+    <string name="health">Health</string>
+    <string name="add">Add Character</string>
+</resources>
