@@ -7,14 +7,14 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/addPlayer"
+        android:id="@+id/addEnemy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="231dp"
         android:layout_marginBottom="426dp"
-        android:text="@string/addPlayer"
+        android:text="@string/addEnemy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -29,10 +29,10 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="117dp"
         android:layout_marginBottom="426dp"
-        android:text="@string/next"
+        android:text="@string/simulate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/addPlayer"
+        app:layout_constraintStart_toEndOf="@+id/addEnemy"
         app:layout_constraintTop_toBottomOf="@+id/healthInput" />
 
     <EditText
@@ -44,7 +44,7 @@
         android:layout_marginEnd="157dp"
         android:layout_marginBottom="30dp"
         android:ems="10"
-        android:hint="@string/playerName"
+        android:hint="@string/enemyName"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/healthInput"
@@ -61,7 +61,7 @@
         android:layout_marginEnd="157dp"
         android:layout_marginBottom="521dp"
         android:ems="10"
-        android:hint="@string/playerHealth"
+        android:hint="@string/enemyHealth"
         android:importantForAutofill="no"
         android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,13 +74,11 @@
         android:layout_width="409dp"
         android:layout_height="417dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="40dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addPlayer">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
