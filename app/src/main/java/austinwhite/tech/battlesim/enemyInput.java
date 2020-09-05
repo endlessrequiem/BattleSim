@@ -53,16 +53,16 @@ public class enemyInput extends AppCompatActivity {
             }
         });
 
-       /* next.setOnClickListener(new View.OnClickListener() {
+       next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent start = new Intent(playerInput.this, Simulate.class);
+                Intent start = new Intent(enemyInput.this, SimulationActivity.class);
                 startActivity(start);
                 finish();
                 overridePendingTransition(0, 0);
             }
         });
-        */
+
 
 
 

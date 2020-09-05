@@ -7,7 +7,7 @@
     <string name="enemyHealth">Enemy Health</string>
     <string name="addPlayer">Add Player</string>
     <string name="addEnemy">Add Enemy</string>
-
+    <string name="simStart">Sim Start</string>
     <string name="next">Next</string>
     <string name="simulate">Simulate</string>
 </resources>

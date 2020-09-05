@@ -19,20 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".playerInput"
-            android:parentActivityName=".MainActivity"
             android:windowSoftInputMode="adjustPan">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-
         </activity>
         <activity android:name=".enemyInput"
-            android:parentActivityName=".playerInput"
             android:windowSoftInputMode="adjustPan">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".playerInput" />
-
+        </activity>
+        <activity android:name=".SimulationActivity">
         </activity>
 
     </application>
