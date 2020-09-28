@@ -21,7 +21,7 @@ successfully retrieve JSON data from the API and use it to populate the ListView
 and then have the ListView pull from the database.
 
 
-![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260092_jeimja.png =100x20 "Screenshot 1") ![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260098_y9y1wo.png =100x20 "Screenshot 2")
+![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260092_jeimja.png =100x20) ![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260098_y9y1wo.png =100x20)
 
 
 I also managed to add a Google maps button that took the provided GPS coordinates and put them into Google Maps (As seen in the Demo). I also made
@@ -29,7 +29,7 @@ it so the text can be highlighted so numbers can be quickly called, or addresses
 
 Here are the screenshots.
 
-![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260417/celeroapp/Screenshot_1601260358_j8xp6x.png =100x20 "Screenshot 3") ![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260419/celeroapp/Screenshot_1601260371_jshbdm.png =100x20 "Screenshot 4")
+![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260417/celeroapp/Screenshot_1601260358_j8xp6x.png =100x20) ![alt text](https://res.cloudinary.com/deflyzun6/image/upload/v1601260419/celeroapp/Screenshot_1601260371_jshbdm.png =100x20)
 
 
 
