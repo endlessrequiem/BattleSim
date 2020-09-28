@@ -20,8 +20,7 @@ successfully retrieve JSON data from the API and use it to populate the ListView
 *  My goal with the SQLite database was to intercept the incoming JSON data and parse it into the SQLite database
 and then have the ListView pull from the database.
 
-<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260092_jeimja.png" alt="drawing" width="300"/>
-<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260098_y9y1wo.png" alt="drawing" width="300"/>
+<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260092_jeimja.png" alt="drawing" width="300"/> <img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260118/celeroapp/Screenshot_1601260098_y9y1wo.png" alt="drawing" width="300"/>
 
 
 I also managed to add a Google maps button that took the provided GPS coordinates and put them into Google Maps (As seen in the Demo). I also made
@@ -29,8 +28,7 @@ it so the text can be highlighted so numbers can be quickly called, or addresses
 
 Here are the screenshots.
 
-<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260417/celeroapp/Screenshot_1601260358_j8xp6x.png" alt="drawing" width="300"/>
-<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260419/celeroapp/Screenshot_1601260371_jshbdm.png" alt="drawing" width="300"/>
+<img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260417/celeroapp/Screenshot_1601260358_j8xp6x.png" alt="drawing" width="300"/> <img src="https://res.cloudinary.com/deflyzun6/image/upload/v1601260419/celeroapp/Screenshot_1601260371_jshbdm.png" alt="drawing" width="300"/>
 
 
 
